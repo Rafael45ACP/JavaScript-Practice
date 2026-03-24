@@ -1,4 +1,4 @@
-let input = document.getElementById("text");
+let input = document.getElementById("input1");
 
 input.addEventListener("input", () => {
   let text = input.value;
