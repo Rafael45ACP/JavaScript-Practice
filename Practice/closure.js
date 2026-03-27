@@ -1,0 +1,11 @@
+function outer ()   {
+    let message = 'Hello';
+    function inner () {
+        console.log(message);
+    }
+    return inner;
+}
+
+let fn = outer();
+
+fn();
